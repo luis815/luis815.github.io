@@ -2,7 +2,7 @@ body {
   background-color: indigo;
 }
 div.container {
-    background-color: seashell;
+    background-color: whitesmoke;
 }
 div.well {
   background-color: papayawhip;
@@ -10,23 +10,19 @@ div.well {
 h1 {
   text-align: center;
   font-family: lucida sans unicode;
-  color: purple;
+  color: indigo;
 }
 p {
   font-family: lucida sans unicode;
+  font-size: 16px;
 }
 .videoPlace {
 position: relative;
 padding-bottom: 65.25%;
-padding-top: 30px;
-height: 0;
 overflow: auto;
-border: solid black 1px;
 }
 .videoPlace iframe {
 position: absolute;
-top: 0;
-left: 0;
 width: 100%;
 height: 100%;
 }
