@@ -1,73 +1,110 @@
-ul {
-  position: fixed;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  border-bottom: solid;
-  border-bottom-color: grey;
-  border-bottom-width: thin;
-  background-color: white;
-}
-
-div.menuBar {
-  background-color: white;
-}
-
-div.barItemsLeft li {
-  float: left;
-}
-
-div.barItemsRight li {
-  float: right;
-}
-
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none:
-    font-family: lucida sans unicode;
-    font-size: 1.5em;
-    color: black;
-}
-
-li a:hover {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
+/*Basics*/
 body {
-  background-color: white;
-}
-
-div.zone {
     background-color: white;
-    padding-bottom: 50px;
-}
-
-div.well {
-  background-color: purple;
 }
 
 h1 {
-  font-family: lucida sans unicode;
-  font-size: 3em;
+    font-family: lucida sans unicode;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: lucida sans unicode;
+    font-size: 2.5em;
 }
 
 p {
-  font-family: lucida sans unicode;
-  font-size: 1.5em;
+    font-family: lucida sans unicode;
+    font-size: 1.5em;
 }
 
-div.videoZone {
-position: relative;
-padding-bottom: 60%;
+p.big {
+    line-height: 200%;
 }
 
-div.videoZone iframe {
-position: absolute;
-width: 100%;
-height: 100%;
+/*Navigation bar*/
+.navbar-default {
+    background-color: #202020;
+    border-bottom: 0;
+}
+
+.navbar-default .navbar-header > a {
+    font-family: lucida sans unicode;
+    color: white;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-header > a:hover {
+    color: #ccb3e6;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav {
+    float: right;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: lucida sans unicode;
+    color: white;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ccb3e6;
+    font-weight: bold;
+}
+
+/*Fluid image*/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Zones*/
+.zone {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.zone-last {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+/*Video zone*/
+.container .video-zone {
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.container .video-zone > iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*Footer*/
+footer {
+    background-color: #202020;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: white;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+footer a:hover {
+    color: #ccb3e6;
+}
+
+.personal-icons > img {
+    position: relative;
+    width: auto;
+    height: 32px;
 }
