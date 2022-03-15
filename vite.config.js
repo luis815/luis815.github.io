@@ -5,7 +5,7 @@ module.exports = defineConfig({
 	root: resolve(__dirname, "./src/"),
 	publicDir: false,
 	build: {
-		outDir: resolve(__dirname, "./dist/"),
+		outDir: resolve(__dirname, "./docs/"),
 		emptyOutDir: true,
 	},
 });
